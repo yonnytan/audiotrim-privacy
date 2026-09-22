@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AudioTrim Support</title>
+<style>
+  :root { color-scheme: light dark; --fg: #1d1d1f; --muted: #6e6e73; --bg: #ffffff; --rule: #d2d2d7; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #f5f5f7; --muted: #a1a1a6; --bg: #000000; --rule: #424245; } }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 32px; line-height: 1.15; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 36px 0 8px; }
+  p, li { margin: 0 0 12px; }
+  .updated { color: var(--muted); margin-bottom: 32px; }
+  .summary { border-left: 3px solid var(--rule); padding-left: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>AudioTrim Support</h1>
+  <p class="updated">Help with trimming, importing, and sharing audio.</p>
+
+  <h2>Get help</h2>
+  <p>Found a bug or have a question? <a href="https://github.com/yonnytan/audiotrim-privacy/issues/new">Open an issue on GitHub</a>
+  and describe what happened. Include your iPhone model and iOS version if you can.</p>
+
+  <h2>Common questions</h2>
+  <p><strong>How do I get audio into AudioTrim?</strong><br>
+  Tap + to import from Files, open an audio file and choose AudioTrim, or use the Share button in another
+  app (like Voice Memos) and pick AudioTrim.</p>
+  <p><strong>Which formats work?</strong><br>
+  MP3, M4A, and WAV import from Files. Trimmed clips are saved as M4A.</p>
+  <p><strong>How do I make a precise cut?</strong><br>
+  Drag the yellow handles, pinch to zoom the waveform, or tap the Start or End time to type an exact time.
+  Use the nudge buttons for tiny adjustments.</p>
+  <p><strong>What does Snap to Silence do?</strong><br>
+  When it's on, a cut moves to the nearest quiet moment so it lands between words. Turn it off from the
+  ⋯ menu in the editor.</p>
+  <p><strong>Will trimming delete my original?</strong><br>
+  Only if you choose Trim Audio and confirm. Save as New keeps the original and adds the trimmed clip.</p>
+  <p><strong>Is my audio uploaded anywhere?</strong><br>
+  No. AudioTrim has no network access. See the <a href="./">privacy policy</a>.</p>
+</main>
+</body>
+</html>
